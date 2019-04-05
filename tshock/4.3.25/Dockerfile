@@ -1,9 +1,9 @@
-FROM mono:4
+FROM mono:5
 
 # Update and install a zip utility
 RUN apt-get update && \
     apt-get upgrade -y && \
-    apt-get install -y vim zip && \
+    apt-get install -y zip && \
     apt-get clean
 
 # Create symbolic link to ServerLog.txt
