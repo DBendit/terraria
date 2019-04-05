@@ -2,7 +2,7 @@
 set -euo pipefail
 
 # Settings
-CI_REGISTRY_IMAGE="beardedio/terraria"
+CI_REGISTRY_IMAGE="dbendit/terraria"
 LATEST_FOLDER="tshock"
 
 # Colorize me baby
